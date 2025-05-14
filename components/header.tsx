@@ -29,36 +29,36 @@ const Header = () => {
     >
       <div className="container mx-auto px-4 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2 text-2xl font-bold">
-          <span className="text-primary">NutriFresh</span>
+          <span className="text-primary">鶏に金棒</span>
         </Link>
 
         <nav className="hidden md:flex items-center gap-8">
-          <Link 
-            href="#services" 
+          <Link
+            href="#services"
             className="font-medium hover:text-primary transition-colors"
           >
             サービス
           </Link>
-          <Link 
-            href="#clients" 
+          <Link
+            href="#clients"
             className="font-medium hover:text-primary transition-colors"
           >
             導入事例
           </Link>
-          <Link 
-            href="#menu" 
+          <Link
+            href="#menu"
             className="font-medium hover:text-primary transition-colors"
           >
             メニュー
           </Link>
-          <Link 
-            href="#quality" 
+          <Link
+            href="#quality"
             className="font-medium hover:text-primary transition-colors"
           >
             品質
           </Link>
-          <Link 
-            href="#contact" 
+          <Link
+            href="#contact"
             className="font-medium hover:text-primary transition-colors"
           >
             お問い合わせ
@@ -66,9 +66,7 @@ const Header = () => {
         </nav>
 
         <div className="hidden md:block">
-          <Button>
-            お問い合わせ
-          </Button>
+          <Button>お問い合わせ</Button>
         </div>
 
         <button
@@ -91,57 +89,63 @@ const Header = () => {
             <School className="h-5 w-5 text-primary" />
             <div>
               <h3 className="font-medium">学校給食</h3>
-              <p className="text-sm text-muted-foreground">栄養バランスの取れた食事</p>
+              <p className="text-sm text-muted-foreground">
+                栄養バランスの取れた食事
+              </p>
             </div>
           </div>
-          
+
           <div className="flex items-center gap-3 p-4 rounded-lg border border-muted hover:bg-muted/50 transition-colors">
             <Heart className="h-5 w-5 text-primary" />
             <div>
               <h3 className="font-medium">福祉施設</h3>
-              <p className="text-sm text-muted-foreground">個別ニーズに対応した食事</p>
+              <p className="text-sm text-muted-foreground">
+                個別ニーズに対応した食事
+              </p>
             </div>
           </div>
-          
+
           <div className="flex items-center gap-3 p-4 rounded-lg border border-muted hover:bg-muted/50 transition-colors">
             <Building className="h-5 w-5 text-primary" />
             <div>
               <h3 className="font-medium">企業ランチ</h3>
-              <p className="text-sm text-muted-foreground">オフィスでの美味しい食事</p>
+              <p className="text-sm text-muted-foreground">
+                オフィスでの美味しい食事
+              </p>
             </div>
           </div>
 
           <div className="mt-6 space-y-4">
-            <Link 
-              href="#services" 
+            <Link
+              href="#services"
               className="block font-medium hover:text-primary transition-colors py-2 border-b"
               onClick={() => setIsMenuOpen(false)}
             >
               サービス
             </Link>
-            <Link 
-              href="#clients" 
+            <Link
+              href="#clients"
               className="block font-medium hover:text-primary transition-colors py-2 border-b"
               onClick={() => setIsMenuOpen(false)}
             >
               導入事例
             </Link>
-            <Link 
-              href="#menu" 
+            <Link
+              href="#menu"
               className="block font-medium hover:text-primary transition-colors py-2 border-b"
               onClick={() => setIsMenuOpen(false)}
             >
               メニュー
             </Link>
-            <Link 
-              href="#quality" 
+            <Link
+              href="#quality"
               className="block font-medium hover:text-primary transition-colors py-2 border-b"
               onClick={() => setIsMenuOpen(false)}
             >
               品質
             </Link>
-            <Link 
-              href="#contact" 
+            <Link
+              href="#contact"
               className="block font-medium hover:text-primary transition-colors py-2 border-b"
               onClick={() => setIsMenuOpen(false)}
             >
